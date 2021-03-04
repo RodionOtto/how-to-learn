@@ -60,9 +60,6 @@
   bottom: 30px;
   left: 64px;
   z-index: 10;
-}
-
-.header__subtitle_text {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -181,6 +178,7 @@
   margin-right: auto;
   justify-content: space-between;
   position: relative;
+  padding-left: 0px;
 }
 
 .table__cell {
@@ -227,7 +225,7 @@
   text-align: center;
 }
 
-.feynamn__subtitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -306,6 +304,7 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .footer__column_content_copyright {
